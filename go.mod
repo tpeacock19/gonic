@@ -1,4 +1,4 @@
-module go.senan.xyz/gonic
+module github.com/tpeacock19/gonic
 
 go 1.19
 

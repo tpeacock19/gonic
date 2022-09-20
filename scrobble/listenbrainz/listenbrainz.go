@@ -37,6 +37,7 @@ type AdditionalInfo struct {
 	TrackNumber   int    `json:"tracknumber,omitempty"`
 	TrackMBID     string `json:"track_mbid,omitempty"`
 	RecordingMBID string `json:"recording_mbid,omitempty"`
+	ReleaseMBID   string `json:"release_mbid,omitempty"`
 	TrackLength   int    `json:"track_length,omitempty"`
 }
 
@@ -69,7 +70,9 @@ func (s *Scrobbler) Scrobble(user *db.User, track *db.Track, stamp time.Time, su
 		TrackMetadata: &TrackMetadata{
 			AdditionalInfo: &AdditionalInfo{
 				TrackNumber:   track.TagTrackNumber,
-				RecordingMBID: trackMBID,
+				TrackMBID:     track.TagBrainzTrackID,
+				RecordingMBID: track.TagBrainzRecordingID,
+				ReleaseMBID:   track.TagBrainzReleaseID,
 				TrackLength:   track.Length,
 			},
 			ArtistName:  track.TagTrackArtist,

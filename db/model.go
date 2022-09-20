@@ -102,7 +102,9 @@ type Track struct {
 	TagTrackArtist string   `sql:"default: null"`
 	TagTrackNumber int      `sql:"default: null"`
 	TagDiscNumber  int      `sql:"default: null"`
-	TagBrainzID    string   `sql:"default: null"`
+	TagBrainzRecordingID string   `sql:"default: null"`
+	TagBrainzReleaseID   string   `sql:"default: null"`
+	TagBrainzTrackID     string   `sql:"default: null"`
 	TrackStar      *TrackStar
 	TrackRating    *TrackRating
 	AverageRating  float64 `sql:"default: null"`

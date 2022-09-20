@@ -40,7 +40,8 @@ func (t *Tagger) firstInt(sep string, keys ...string) int {
 // https://picard-docs.musicbrainz.org/downloads/MusicBrainz_Picard_Tag_Map.html
 
 func (t *Tagger) Title() string         { return t.first("title") }
-func (t *Tagger) BrainzID() string      { return t.first("musicbrainz_trackid") } // musicbrainz recording ID
+func (t *Tagger) RecordingID() string   { return t.first("musicbrainz_trackid") }
+func (t *Tagger) TrackID() string       { return t.first("musicbrainz_releasetrackid") }
 func (t *Tagger) Artist() string        { return t.first("artist") }
 func (t *Tagger) Album() string         { return t.first("album") }
 func (t *Tagger) AlbumArtist() string   { return t.first("albumartist", "album artist") }
@@ -65,7 +66,8 @@ type Reader interface {
 
 type Parser interface {
 	Title() string
-	BrainzID() string
+	RecordingID() string
+	TrackID() string
 	Artist() string
 	Album() string
 	AlbumArtist() string
