@@ -17,11 +17,11 @@ import (
 
 	jd "github.com/josephburnett/jd/lib"
 
-	"go.senan.xyz/gonic/db"
-	"go.senan.xyz/gonic/mockfs"
-	"go.senan.xyz/gonic/server/ctrlbase"
-	"go.senan.xyz/gonic/server/ctrlsubsonic/params"
-	"go.senan.xyz/gonic/transcode"
+	"github.com/tpeacock19/gonic/db"
+	"github.com/tpeacock19/gonic/mockfs"
+	"github.com/tpeacock19/gonic/server/ctrlbase"
+	"github.com/tpeacock19/gonic/server/ctrlsubsonic/params"
+	"github.com/tpeacock19/gonic/transcode"
 )
 
 var testCamelExpr = regexp.MustCompile("([a-z0-9])([A-Z])")

@@ -7,8 +7,8 @@ import (
 	"net/url"
 	"testing"
 
-	"go.senan.xyz/gonic/server/ctrlsubsonic/spec"
-	"go.senan.xyz/gonic/server/ctrlsubsonic/specid"
+	"github.com/tpeacock19/gonic/server/ctrlsubsonic/spec"
+	"github.com/tpeacock19/gonic/server/ctrlsubsonic/specid"
 )
 
 const station1ID = "ir-1"

@@ -13,8 +13,8 @@ import (
 
 	// TODO: remove this dep
 
-	"go.senan.xyz/gonic/mime"
-	"go.senan.xyz/gonic/server/ctrlsubsonic/specid"
+	"github.com/tpeacock19/gonic/mime"
+	"github.com/tpeacock19/gonic/server/ctrlsubsonic/specid"
 )
 
 func splitInt(in, sep string) []int {

@@ -5,10 +5,10 @@ import (
 
 	"github.com/mmcdole/gofeed"
 
-	"go.senan.xyz/gonic/server/ctrlsubsonic/params"
-	"go.senan.xyz/gonic/server/ctrlsubsonic/spec"
-	"go.senan.xyz/gonic/server/ctrlsubsonic/specid"
-	"go.senan.xyz/gonic/db"
+	"github.com/tpeacock19/gonic/server/ctrlsubsonic/params"
+	"github.com/tpeacock19/gonic/server/ctrlsubsonic/spec"
+	"github.com/tpeacock19/gonic/server/ctrlsubsonic/specid"
+	"github.com/tpeacock19/gonic/db"
 )
 
 func (c *Controller) ServeGetPodcasts(r *http.Request) *spec.Response {

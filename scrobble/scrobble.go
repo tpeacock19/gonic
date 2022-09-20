@@ -3,7 +3,7 @@ package scrobble
 import (
 	"time"
 
-	"go.senan.xyz/gonic/db"
+	"github.com/tpeacock19/gonic/db"
 )
 
 type Scrobbler interface {

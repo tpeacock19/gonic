@@ -13,10 +13,10 @@ import (
 	_ "github.com/jinzhu/gorm/dialects/sqlite"
 	"github.com/matryer/is"
 
-	"go.senan.xyz/gonic/db"
-	"go.senan.xyz/gonic/mockfs"
-	"go.senan.xyz/gonic/multierr"
-	"go.senan.xyz/gonic/scanner"
+	"github.com/tpeacock19/gonic/db"
+	"github.com/tpeacock19/gonic/mockfs"
+	"github.com/tpeacock19/gonic/multierr"
+	"github.com/tpeacock19/gonic/scanner"
 )
 
 func TestMain(m *testing.M) {

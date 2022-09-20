@@ -1,6 +1,6 @@
 package spec
 
-import "go.senan.xyz/gonic/db"
+import "github.com/tpeacock19/gonic/db"
 
 func NewInternetRadioStation(irs *db.InternetRadioStation) *InternetRadioStation {
 	return &InternetRadioStation{

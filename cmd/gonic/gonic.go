@@ -1,4 +1,5 @@
 // Package main is the gonic server entrypoint
+//
 //nolint:lll // flags help strings
 package main
 
@@ -16,9 +17,9 @@ import (
 	"github.com/oklog/run"
 	"github.com/peterbourgon/ff"
 
-	"go.senan.xyz/gonic"
-	"go.senan.xyz/gonic/server"
-	"go.senan.xyz/gonic/db"
+	"github.com/tpeacock19/gonic"
+	"github.com/tpeacock19/gonic/db"
+	"github.com/tpeacock19/gonic/server"
 )
 
 const (

@@ -21,11 +21,11 @@ import (
 	"github.com/oxtoacart/bpool"
 	"github.com/sentriz/gormstore"
 
-	"go.senan.xyz/gonic"
-	"go.senan.xyz/gonic/db"
-	"go.senan.xyz/gonic/podcasts"
-	"go.senan.xyz/gonic/server/assets"
-	"go.senan.xyz/gonic/server/ctrlbase"
+	"github.com/tpeacock19/gonic"
+	"github.com/tpeacock19/gonic/db"
+	"github.com/tpeacock19/gonic/podcasts"
+	"github.com/tpeacock19/gonic/server/assets"
+	"github.com/tpeacock19/gonic/server/ctrlbase"
 )
 
 type CtxKey int
