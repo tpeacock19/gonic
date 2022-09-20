@@ -11,7 +11,7 @@ import (
 
 	"github.com/jinzhu/gorm"
 
-	"go.senan.xyz/gonic/db"
+	"github.com/tpeacock19/gonic/db"
 )
 
 var (

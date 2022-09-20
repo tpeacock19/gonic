@@ -4,9 +4,9 @@ import (
 	"net/http"
 	"net/url"
 
-	"go.senan.xyz/gonic/db"
-	"go.senan.xyz/gonic/server/ctrlsubsonic/params"
-	"go.senan.xyz/gonic/server/ctrlsubsonic/spec"
+	"github.com/tpeacock19/gonic/db"
+	"github.com/tpeacock19/gonic/server/ctrlsubsonic/params"
+	"github.com/tpeacock19/gonic/server/ctrlsubsonic/spec"
 )
 
 func (c *Controller) ServeGetInternetRadioStations(r *http.Request) *spec.Response {

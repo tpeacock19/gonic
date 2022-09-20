@@ -4,7 +4,7 @@ import (
 	"path"
 	"strings"
 
-	"go.senan.xyz/gonic/db"
+	"github.com/tpeacock19/gonic/db"
 )
 
 func NewAlbumByFolder(f *db.Album) *Album {

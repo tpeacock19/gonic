@@ -32,7 +32,7 @@ import (
 	"strconv"
 	"time"
 
-	"go.senan.xyz/gonic/server/ctrlsubsonic/specid"
+	"github.com/tpeacock19/gonic/server/ctrlsubsonic/specid"
 )
 
 var (

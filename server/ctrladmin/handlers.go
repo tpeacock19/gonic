@@ -16,11 +16,11 @@ import (
 	"github.com/mmcdole/gofeed"
 	"github.com/nfnt/resize"
 
-	"go.senan.xyz/gonic/db"
-	"go.senan.xyz/gonic/scanner"
-	"go.senan.xyz/gonic/scrobble/lastfm"
-	"go.senan.xyz/gonic/scrobble/listenbrainz"
-	"go.senan.xyz/gonic/transcode"
+	"github.com/tpeacock19/gonic/db"
+	"github.com/tpeacock19/gonic/scanner"
+	"github.com/tpeacock19/gonic/scrobble/lastfm"
+	"github.com/tpeacock19/gonic/scrobble/listenbrainz"
+	"github.com/tpeacock19/gonic/transcode"
 )
 
 func doScan(scanner *scanner.Scanner, opts scanner.ScanOptions) {

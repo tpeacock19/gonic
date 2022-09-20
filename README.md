@@ -41,7 +41,7 @@ password can then be changed from the web interface
 ```bash
 $ apt install build-essential git sqlite libtag1-dev ffmpeg libasound-dev # for debian like
 $ pacman -S base-devel git sqlite taglib ffmpeg alsa-lib                  # for arch like
-$ go install go.senan.xyz/gonic/cmd/gonic@latest
+$ go install github.com/tpeacock19/gonic/cmd/gonic@latest
 $ export PATH=$PATH:$HOME/go/bin
 $ gonic -h # or see "configuration options below"
 ```
@@ -105,7 +105,7 @@ $ sudo apt install build-essential git sqlite libtag1-dev ffmpeg libasound-dev
 2. install / compile gonic globally, and check version
 
 ```shell
-$ sudo GOBIN=/usr/local/bin go install go.senan.xyz/gonic/cmd/gonic@latest
+$ sudo GOBIN=/usr/local/bin go install github.com/tpeacock19/gonic/cmd/gonic@latest
 
 $ gonic -version
 v0.14.0

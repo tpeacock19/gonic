@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"time"
 
-	"go.senan.xyz/gonic"
-	"go.senan.xyz/gonic/server/ctrlsubsonic/specid"
+	"github.com/tpeacock19/gonic"
+	"github.com/tpeacock19/gonic/server/ctrlsubsonic/specid"
 )
 
 const (

@@ -14,8 +14,8 @@ import (
 	"strconv"
 	"time"
 
-	"go.senan.xyz/gonic/db"
-	"go.senan.xyz/gonic/scrobble"
+	"github.com/tpeacock19/gonic/db"
+	"github.com/tpeacock19/gonic/scrobble"
 )
 
 const (
